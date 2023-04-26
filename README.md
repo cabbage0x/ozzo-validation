@@ -1,9 +1,9 @@
 # ozzo-validation
 
-[![GoDoc](https://godoc.org/github.com/go-ozzo/ozzo-validation?status.png)](http://godoc.org/github.com/go-ozzo/ozzo-validation)
-[![Build Status](https://travis-ci.org/go-ozzo/ozzo-validation.svg?branch=master)](https://travis-ci.org/go-ozzo/ozzo-validation)
-[![Coverage Status](https://coveralls.io/repos/github/go-ozzo/ozzo-validation/badge.svg?branch=master)](https://coveralls.io/github/go-ozzo/ozzo-validation?branch=master)
-[![Go Report](https://goreportcard.com/badge/github.com/go-ozzo/ozzo-validation)](https://goreportcard.com/report/github.com/go-ozzo/ozzo-validation)
+[![GoDoc](https://godoc.org/github.com/cabbage0x/ozzo-validation?status.png)](http://godoc.org/github.com/cabbage0x/ozzo-validation)
+[![Build Status](https://travis-ci.org/cabbage0x/ozzo-validation.svg?branch=master)](https://travis-ci.org/cabbage0x/ozzo-validation)
+[![Coverage Status](https://coveralls.io/repos/github/cabbage0x/ozzo-validation/badge.svg?branch=master)](https://coveralls.io/github/cabbage0x/ozzo-validation?branch=master)
+[![Go Report](https://goreportcard.com/badge/github.com/cabbage0x/ozzo-validation)](https://goreportcard.com/report/github.com/cabbage0x/ozzo-validation)
 
 ## Description
 
@@ -38,7 +38,7 @@ or `validation.ValidateStruct()` to validate the value.
 Run the following command to install the package:
 
 ```
-go get github.com/go-ozzo/ozzo-validation
+go get github.com/cabbage0x/ozzo-validation
 ```
 
 ### Validating a Simple Value
@@ -51,8 +51,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/go-ozzo/ozzo-validation/v4/is"
+	"github.com/cabbage0x/ozzo-validation/v4"
+	"github.com/cabbage0x/ozzo-validation/v4/is"
 )
 
 func main() {
