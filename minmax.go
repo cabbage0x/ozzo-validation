@@ -77,7 +77,7 @@ func (r ThresholdRule) Exclusive() ThresholdRule {
 // Validate checks if the given value is valid or not.
 func (r ThresholdRule) Validate(value interface{}) error {
 	value, isNil := Indirect(value)
-	if isNil || IsEmpty(value) {
+	if isNil {
 		return nil
 	}
 
